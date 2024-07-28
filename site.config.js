@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "hakim-tech",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Physics Teacher",
+    role: "أستاذ العلوم الفيزيائية",
     bio: "keep it simple.",
     email: "hbouzourdaz@gmail.com",
     linkedin: "hbouzourdaz",
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "hakim-tech",
-    description: "welcome to hakim-tech!",
+    description: "مرحباً بكم في hakim-tech!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
