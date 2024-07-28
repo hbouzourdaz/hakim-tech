@@ -42,12 +42,14 @@ export default PinnedPosts
 
 const StyledWrapper = styled.div`
   position: relative;
+  direction: rtl;
   .wrapper {
     display: flex;
     margin-bottom: 1rem;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid ${({ theme }) => theme.colors.gray6};
+    direction: rtl;
   }
   .header {
     display: flex;
@@ -59,5 +61,6 @@ const StyledWrapper = styled.div`
     line-height: 1.75rem;
     font-weight: 700;
     cursor: pointer;
+    direction: rtl;
   }
 `
