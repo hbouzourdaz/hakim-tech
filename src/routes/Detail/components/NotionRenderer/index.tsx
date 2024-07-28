@@ -79,11 +79,14 @@ const NotionRenderer: FC<Props> = ({ recordMap }) => {
 export default NotionRenderer
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   /* // TODO: why render? */
   .notion-collection-page-properties {
     display: none !important;
+    direction: rtl;
   }
   .notion-page {
+    direction: rtl;
     padding: 0;
   }
   .notion-list {
