@@ -59,8 +59,10 @@ const StyledWrapper = styled.div`
     line-height: 1.75rem;
     font-weight: 700;
     cursor: pointer;
+    direction: rtl;
   }
   > .content {
+    direction: rtl;
     position: absolute;
     z-index: 40;
     padding: 0.25rem;
@@ -70,6 +72,7 @@ const StyledWrapper = styled.div`
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -1px rgba(0, 0, 0, 0.06);
     > .item {
+      direction: rtl;
       padding: 0.25rem;
       padding-left: 0.5rem;
       padding-right: 0.5rem;
@@ -80,6 +83,7 @@ const StyledWrapper = styled.div`
       cursor: pointer;
 
       :hover {
+        direction: rtl;
         background-color: ${({ theme }) => theme.colors.gray4};
       }
     }
