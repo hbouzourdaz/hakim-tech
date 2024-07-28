@@ -24,15 +24,19 @@ export default SearchInput
 
 const StyledWrapper = styled.div`
   margin-bottom: 1rem;
+  direction: rtl;
 
   @media (min-width: 768px) {
     margin-bottom: 2rem;
+    direction: rtl;
   }
   > .top {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
+    direction: rtl;
   }
   > .mid {
+    direction: rtl;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.25rem;
