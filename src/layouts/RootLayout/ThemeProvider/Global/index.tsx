@@ -13,8 +13,8 @@ export const Global = () => {
           direction: rtl;
           margin: 0;
           padding: 0;
-          color: ${theme.colors.gray12};
-          background-color: ${theme.colors.gray2};
+          color: ${theme.colors.dark};
+          background-color: ${theme.colors.light};
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
