@@ -18,6 +18,7 @@ const FeedHeader: React.FC<Props> = () => {
 export default FeedHeader
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   display: flex;
   margin-bottom: 1rem;
   justify-content: space-between;
