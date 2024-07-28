@@ -30,10 +30,12 @@ export default ProfileCard
 
 const StyledWrapper = styled.div`
   > .title {
+    direction: rtl;
     padding: 0.25rem;
     margin-bottom: 0.75rem;
   }
   > .content {
+    direction: rtl;
     margin-bottom: 2.25rem;
     border-radius: 1rem;
     width: 100%;
@@ -44,8 +46,10 @@ const StyledWrapper = styled.div`
     }
     @media (min-width: 1024px) {
       padding: 1rem;
+      direction: rtl;
     }
     .top {
+      direction: rtl;
       position: relative;
       width: 100%;
       &:after {
@@ -55,6 +59,7 @@ const StyledWrapper = styled.div`
       }
     }
     .mid {
+      direction: rtl;
       display: flex;
       padding: 0.5rem;
       flex-direction: column;
@@ -66,12 +71,14 @@ const StyledWrapper = styled.div`
         font-weight: 700;
       }
       .role {
+        direction: rtl;
         margin-bottom: 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         color: ${({ theme }) => theme.colors.gray11};
       }
       .bio {
+        direction: rtl;
         margin-bottom: 0.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
