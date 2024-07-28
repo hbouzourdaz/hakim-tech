@@ -1,6 +1,6 @@
-import { Roboto } from 'next/font/google'
+import { Tajawal } from 'next/font/google'
 
-export const roboto = Roboto({
+export const tajawal = Tajawal({
   weight: ['900'],
   style: ['italic'],
   subsets: ['latin'],
