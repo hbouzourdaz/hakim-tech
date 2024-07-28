@@ -1,3 +1,3 @@
-export * from './pretendard'
+export * from './tajawal'
 export * from './roboto'
 
