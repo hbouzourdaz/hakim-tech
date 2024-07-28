@@ -27,7 +27,9 @@ const Footer: React.FC<Props> = ({ className }) => {
 export default Footer
 
 const StyledWrapper = styled.div`
+    direction: rtl;
   a {
+    direction: rtl;
     margin-top: 0.75rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
