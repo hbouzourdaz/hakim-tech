@@ -19,14 +19,17 @@ const NavBar: React.FC = () => {
 export default NavBar
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   flex-shrink: 0;
   ul {
     display: flex;
     flex-direction: row;
+    direction: rtl;
     li {
       display: block;
       margin-left: 1rem;
       color: ${({ theme }) => theme.colors.gray11};
+      direction: rtl;
     }
   }
 `
