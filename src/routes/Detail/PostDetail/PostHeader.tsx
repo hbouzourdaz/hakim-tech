@@ -67,12 +67,15 @@ const PostHeader: React.FC<Props> = ({ data }) => {
 export default PostHeader
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   .title {
+    direction: rtl;
     font-size: 1.875rem;
     line-height: 2.25rem;
     font-weight: 700;
   }
   nav {
+    direction: rtl;
     margin-top: 1.5rem;
     color: ${({ theme }) => theme.colors.gray11};
     > .top {
@@ -80,10 +83,12 @@ const StyledWrapper = styled.div`
       margin-bottom: 0.75rem;
       gap: 0.75rem;
       align-items: center;
+      direction: rtl;
       .author {
         display: flex;
         gap: 0.5rem;
         align-items: center;
+        direction: rtl;
       }
       .hr {
         margin-top: 0.25rem;
@@ -91,12 +96,15 @@ const StyledWrapper = styled.div`
         align-self: stretch;
         width: 1px;
         background-color: ${({ theme }) => theme.colors.gray10};
+        direction: rtl;
       }
       .date {
         margin-right: 0.5rem;
+        direction: rtl;
 
         @media (min-width: 768px) {
           margin-left: 0;
+          direction: rtl;
         }
       }
     }
@@ -104,12 +112,14 @@ const StyledWrapper = styled.div`
       display: flex;
       margin-bottom: 1rem;
       align-items: center;
+      direction: rtl;
       .tags {
         display: flex;
         overflow-x: auto;
         flex-wrap: nowrap;
         gap: 0.5rem;
         max-width: 100%;
+        direction: rtl;
       }
     }
     .thumbnail {
@@ -120,9 +130,11 @@ const StyledWrapper = styled.div`
       width: 100%;
       background-color: ${({ theme }) => theme.colors.gray4};
       padding-bottom: 66%;
+      direction: rtl;
 
       @media (min-width: 1024px) {
         padding-bottom: 50%;
+        direction: rtl;
       }
     }
   }
