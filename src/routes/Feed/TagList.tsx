@@ -56,12 +56,14 @@ export default TagList
 
 const StyledWrapper = styled.div`
   .top {
+    direction: rtl;
     display: none;
     padding: 0.25rem;
     margin-bottom: 0.75rem;
 
     @media (min-width: 1024px) {
       display: block;
+      direction: rtl;
     }
   }
 
@@ -70,19 +72,23 @@ const StyledWrapper = styled.div`
     margin-bottom: 1.5rem;
     gap: 0.25rem;
     overflow: scroll;
+    direction: rtl;
 
     scrollbar-width: none;
     -ms-overflow-style: none;
     ::-webkit-scrollbar {
       width: 0;
       height: 0;
+      direction: rtl;
     }
 
     @media (min-width: 1024px) {
       display: block;
+      direction: rtl;
     }
 
     a {
+      direction: rtl;
       display: block;
       padding: 0.25rem;
       padding-left: 1rem;
