@@ -22,9 +22,11 @@ const Detail: React.FC<Props> = () => {
 export default Detail
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   padding: 2rem 0;
 
   &[data-type="Paper"] {
+    direction: rtl;
     padding: 40px 0;
   }
   /** Reference: https://github.com/chriskempson/tomorrow-theme **/
