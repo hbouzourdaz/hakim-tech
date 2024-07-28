@@ -36,6 +36,7 @@ const StyledTitle = styled.div`
 `
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   display: flex;
   padding: 0.25rem;
   margin-bottom: 2.25rem;
@@ -61,6 +62,7 @@ const StyledWrapper = styled.div`
       line-height: 2rem;
     }
     .name {
+      direction: rtl;
       font-size: 0.875rem;
       line-height: 1.25rem;
     }
