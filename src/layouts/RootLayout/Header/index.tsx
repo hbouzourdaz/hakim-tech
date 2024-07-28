@@ -25,6 +25,7 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
 export default Header
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   z-index: ${zIndexes.header};
   position: sticky;
   top: 0;
@@ -41,12 +42,14 @@ const StyledWrapper = styled.div`
     max-width: 1120px;
     height: 3rem;
     margin: 0 auto;
+    direction: rtl;
 }
 
 .container[data-full-width="true"] {
     @media (min-width: 768px) {
         padding-left: 6rem;
         padding-right: 6rem;
+        direction: rtl;
     }
 }
 
@@ -54,12 +57,14 @@ const StyledWrapper = styled.div`
 :dir(rtl) .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    direction: rtl;
 }
 
 :dir(rtl) .container[data-full-width="true"] {
     @media (min-width: 768px) {
         padding-left: 6rem;
         padding-right: 6rem;
+        direction: rtl;
     }
 }
 
@@ -67,6 +72,7 @@ const StyledWrapper = styled.div`
       display: flex;
       gap: 0.75rem;
       align-items: center;
+      direction: rtl;
     }
   }
 `
