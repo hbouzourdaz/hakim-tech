@@ -22,6 +22,7 @@ const CustomError: React.FC<Props> = () => {
 export default CustomError
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -30,6 +31,7 @@ const StyledWrapper = styled.div`
   border-radius: 1.5rem;
   max-width: 56rem;
   .wrapper {
+    direction: rtl;
     display: flex;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -37,12 +39,14 @@ const StyledWrapper = styled.div`
     gap: 2.5rem;
     align-items: center;
     > .top {
+      direction: rtl;
       display: flex;
       align-items: center;
       font-size: 3.75rem;
       line-height: 1;
     }
     > .text {
+      direction: rtl;
       font-size: 1.875rem;
       line-height: 2.25rem;
       color: ${({ theme }) => theme.colors.gray11};
