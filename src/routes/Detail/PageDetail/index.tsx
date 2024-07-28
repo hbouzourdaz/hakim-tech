@@ -18,6 +18,7 @@ const PageDetail: React.FC<Props> = () => {
 export default PageDetail
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   margin: 0 auto;
   max-width: 56rem;
 `
