@@ -28,11 +28,6 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './Tajawal-SemiBold.ttf',
-      weight: '600',
-      style: 'normal',
-    },
-    {
       path: './Tajawal-Bold.ttf',
       weight: '700',
       style: 'normal',
