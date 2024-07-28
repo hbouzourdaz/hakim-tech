@@ -3,7 +3,7 @@ import localFont from 'next/font/local'
 export const pretendard = localFont({
   src: [
     {
-      path: './Tajawal-Light.ttf',
+      path: './Lemonada-Light.ttf',
       weight: '100',
       style: 'normal',
     },
@@ -13,22 +13,22 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './Tajawal-Light.ttf',
+      path: './Lemonada-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: './Tajawal-Regular.ttf',
+      path: './Lemonada-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './Tajawal-Medium.ttf',
+      path: './Lemonada-Medium.ttf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: './Tajawal-Bold.ttf',
+      path: './Lemonada-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
