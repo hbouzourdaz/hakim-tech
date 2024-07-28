@@ -63,17 +63,21 @@ export default Feed
 
 const StyledWrapper = styled.div`
   grid-template-columns: repeat(12, minmax(0, 1fr));
+  direction: rtl;
+
 
   padding: 2rem 0;
   display: grid;
   gap: 1.5rem;
 
   @media (max-width: 768px) {
+    direction: rtl;
     display: block;
     padding: 0.5rem 0;
   }
 
   > .lt {
+    direction: rtl;
     display: none;
     overflow: scroll;
     position: sticky;
@@ -87,26 +91,32 @@ const StyledWrapper = styled.div`
     }
 
     @media (min-width: 1024px) {
+      direction: rtl;
       display: block;
     }
   }
 
   > .mid {
+    direction: rtl;
     grid-column: span 12 / span 12;
 
     @media (min-width: 1024px) {
       grid-column: span 7 / span 7;
+      direction: rtl;
     }
 
     > .tags {
+      direction: rtl;
       display: block;
 
       @media (min-width: 1024px) {
+        direction: rtl;
         display: none;
       }
     }
 
     > .footer {
+      direction: rtl;
       padding-bottom: 2rem;
       @media (min-width: 1024px) {
         display: none;
@@ -115,6 +125,7 @@ const StyledWrapper = styled.div`
   }
 
   > .rt {
+    direction: rtl;
     scrollbar-width: none;
     -ms-overflow-style: none;
     &::-webkit-scrollbar {
@@ -127,11 +138,13 @@ const StyledWrapper = styled.div`
     top: ${HEADER_HEIGHT - 10}px;
 
     @media (min-width: 1024px) {
+      direction: rtl;
       display: block;
       grid-column: span 3 / span 3;
     }
 
     .footer {
+      direction: rtl;
       padding-top: 1rem;
     }
   }
