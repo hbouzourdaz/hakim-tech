@@ -8,12 +8,12 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
   return (
     <StyledWrapper>
       <div className="top">
-        <Emoji>🔎</Emoji> Search
+        <Emoji>🔎</Emoji> البحث
       </div>
       <input
         className="mid"
         type="text"
-        placeholder="Search Keyword..."
+        placeholder="إبحث عن التدوينات من هنا ..."
         {...props}
       />
     </StyledWrapper>
