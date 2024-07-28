@@ -19,16 +19,19 @@ const Footer: React.FC<Props> = () => {
 export default Footer
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   display: flex;
   justify-content: space-between;
   font-weight: 500;
   color: ${({ theme }) => theme.colors.gray10};
   a {
+    direction: rtl;
     margin-top: 0.5rem;
     cursor: pointer;
 
     :hover {
       color: ${({ theme }) => theme.colors.gray12};
+      direction: rtl;
     }
   }
 `
