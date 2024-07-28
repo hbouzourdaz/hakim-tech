@@ -28,7 +28,7 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './MiSansArabic-SemiBold.ttf',
+      path: './MiSansArabic-Semibold.ttf',
       weight: '900',
       style: 'normal',
     },
