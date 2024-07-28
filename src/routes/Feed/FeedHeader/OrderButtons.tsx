@@ -40,15 +40,18 @@ const OrderButtons: React.FC<Props> = () => {
 export default OrderButtons
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   display: flex;
   gap: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   a {
+    direction: rtl;
     cursor: pointer;
     color: ${({ theme }) => theme.colors.gray10};
 
     &[data-active="true"] {
+      direction: rtl;
       font-weight: 700;
 
       color: ${({ theme }) => theme.colors.gray12};
