@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 import { useRouter } from "next/router"
 import React from "react"
 
-type TOrder = "تصاعدي" | "تنازلي"
+type TOrder = "asc" | "desc"
 
 type Props = {}
 
