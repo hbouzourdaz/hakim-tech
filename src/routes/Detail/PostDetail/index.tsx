@@ -44,6 +44,7 @@ const PostDetail: React.FC<Props> = () => {
 export default PostDetail
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 3rem;
@@ -56,6 +57,7 @@ const StyledWrapper = styled.div`
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin: 0 auto;
   > article {
+    direction: rtl;
     margin: 0 auto;
     max-width: 42rem;
   }
