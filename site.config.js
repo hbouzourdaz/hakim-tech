@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "hakim-tech",
+    title: "🧑 مدونة حكيم",
     description: "مرحباً بكم في hakim-tech!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
