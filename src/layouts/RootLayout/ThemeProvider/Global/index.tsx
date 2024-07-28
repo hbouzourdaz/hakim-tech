@@ -10,6 +10,7 @@ export const Global = () => {
     <_Global
       styles={css`
         body {
+          direction: rtl;
           margin: 0;
           padding: 0;
           color: ${theme.colors.gray12};
@@ -22,6 +23,7 @@ export const Global = () => {
         * {
           color-scheme: ${theme.scheme};
           box-sizing: border-box;
+          direction: rtl;
         }
 
         h1,
@@ -33,27 +35,32 @@ export const Global = () => {
           margin: 0;
           font-weight: inherit;
           font-style: inherit;
+          direction: rtl;
         }
 
         a {
           all: unset;
           cursor: pointer;
+          direction: rtl;
         }
 
         ul {
           padding: 0;
+          direction: rtl;
         }
 
         // init button
         button {
           all: unset;
           cursor: pointer;
+          direction: rtl;
         }
 
         // init input
         input {
           all: unset;
           box-sizing: border-box;
+          direction: rtl;
         }
 
         // init textarea
@@ -65,6 +72,7 @@ export const Global = () => {
           outline: none;
           resize: none;
           color: inherit;
+          direction: rtl;
         }
 
         hr {
@@ -72,6 +80,7 @@ export const Global = () => {
           border: none;
           margin: 0;
           border-top: 1px solid ${theme.colors.gray6};
+          direction: rtl;
         }
       `}
     />
