@@ -72,9 +72,11 @@ const StyledWrapper = styled(Link)`
     transition-property: box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
+    direction: rtl;
 
     @media (min-width: 768px) {
       margin-bottom: 2rem;
+      direction: rtl;
     }
 
     :hover {
@@ -86,6 +88,7 @@ const StyledWrapper = styled(Link)`
       top: 1rem;
       left: 1rem;
       z-index: 10;
+      direction: rtl;
     }
 
     > .thumbnail {
@@ -93,40 +96,49 @@ const StyledWrapper = styled(Link)`
       width: 100%;
       background-color: ${({ theme }) => theme.colors.gray2};
       padding-bottom: 66%;
+      direction: rtl;
 
       @media (min-width: 1024px) {
         padding-bottom: 50%;
+        direction: rtl;
       }
     }
     > .content {
       padding: 1rem;
+      direction: rtl;
 
       &[data-thumb="false"] {
         padding-top: 3.5rem;
+        direction: rtl;
       }
       &[data-category="false"] {
         padding-top: 1.5rem;
+        direction: rtl;
       }
       > .top {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        direction: rtl;
 
         @media (min-width: 768px) {
           flex-direction: row;
           align-items: baseline;
+          direction: rtl;
         }
         h2 {
           margin-bottom: 0.5rem;
           font-size: 1.125rem;
           line-height: 1.75rem;
           font-weight: 500;
+          direction: rtl;
 
           cursor: pointer;
 
           @media (min-width: 768px) {
             font-size: 1.25rem;
             line-height: 1.75rem;
+            direction: rtl;
           }
         }
       }
@@ -135,30 +147,37 @@ const StyledWrapper = styled(Link)`
         margin-bottom: 1rem;
         gap: 0.5rem;
         align-items: center;
+        direction: rtl;
         .content {
+        direction: rtl;
           font-size: 0.875rem;
           line-height: 1.25rem;
           color: ${({ theme }) => theme.colors.gray10};
           @media (min-width: 768px) {
             margin-left: 0;
+            direction: rtl;
           }
         }
       }
       > .summary {
+      direction: rtl;
         margin-bottom: 1rem;
         p {
+          direction: rtl;
           display: none;
           line-height: 2rem;
           color: ${({ theme }) => theme.colors.gray11};
 
           @media (min-width: 768px) {
             display: block;
+            direction: rtl;
           }
         }
       }
       > .tags {
         display: flex;
         gap: 0.5rem;
+        direction: rtl;
       }
     }
   }
