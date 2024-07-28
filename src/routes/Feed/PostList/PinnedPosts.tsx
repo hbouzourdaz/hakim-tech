@@ -27,7 +27,7 @@ const PinnedPosts: React.FC<Props> = ({ q }) => {
   return (
     <StyledWrapper>
       <div className="wrapper">
-        <div className="header">📌 Pinned Posts</div>
+        <div className="header">📌 المشاركات المثبتة</div>
       </div>
       <div className="my-2">
         {filteredPosts.map((post) => (
