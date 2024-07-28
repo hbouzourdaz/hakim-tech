@@ -22,5 +22,6 @@ const ThemeToggle: React.FC<Props> = () => {
 export default ThemeToggle
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   cursor: pointer;
 `
