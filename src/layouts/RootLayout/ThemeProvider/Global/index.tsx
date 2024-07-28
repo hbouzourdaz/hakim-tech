@@ -24,6 +24,9 @@ export const Global = () => {
           color-scheme: ${theme.scheme};
           box-sizing: border-box;
           direction: rtl;
+font-family: ${pretendard.style.fontFamily};
+          font-weight: ${pretendard.style.fontWeight};
+          font-style: ${pretendard.style.fontStyle};
         }
 
         h1,
@@ -33,8 +36,9 @@ export const Global = () => {
         h5,
         h6 {
           margin: 0;
-          font-weight: inherit;
-          font-style: inherit;
+          font-family: ${pretendard.style.fontFamily};
+          font-weight: ${pretendard.style.fontWeight};
+          font-style: ${pretendard.style.fontStyle};
           direction: rtl;
         }
 
@@ -67,7 +71,9 @@ export const Global = () => {
         textarea {
           border: none;
           background-color: transparent;
-          font-family: inherit;
+          font-family: ${pretendard.style.fontFamily};
+          font-weight: ${pretendard.style.fontWeight};
+          font-style: ${pretendard.style.fontStyle};
           padding: 0;
           outline: none;
           resize: none;
