@@ -59,5 +59,6 @@ const Cusdis: React.FC<Props> = ({ id, slug, title }) => {
 export default Cusdis
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   margin-top: 2.5rem;
 `
