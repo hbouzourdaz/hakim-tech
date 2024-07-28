@@ -3,32 +3,32 @@ import localFont from 'next/font/local'
 export const pretendard = localFont({
   src: [
     {
-      path: './Lemonada-Light.ttf',
+      path: './MiSansArabic-Light.ttf',
       weight: '100',
       style: 'normal',
     },
     {
-      path: './Lemonada-Light.ttf',
+      path: './MiSansArabic-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: './Lemonada-Regular.ttf',
+      path: './MiSansArabic-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './Lemonada-Medium.ttf',
+      path: './MiSansArabic-Medium.ttf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: './Lemonada-Bold.ttf',
+      path: './MiSansArabic-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
     {
-      path: './Lemonada-SemiBold.ttf',
+      path: './MiSansArabic-SemiBold.ttf',
       weight: '900',
       style: 'normal',
     },
