@@ -26,7 +26,7 @@ const CONFIG = {
   // CONFIG configration (required)
   link: "https://hakim-tech.vercel.app/",
   since: 2024, // If leave this empty, current year will be used.
-  lang: "ar-SA", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: "fr-FR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
