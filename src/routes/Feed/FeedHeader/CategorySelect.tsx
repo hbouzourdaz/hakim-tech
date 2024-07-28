@@ -48,6 +48,7 @@ const CategorySelect: React.FC<Props> = () => {
 export default CategorySelect
 
 const StyledWrapper = styled.div`
+  direction: rtl;
   position: relative;
   > .wrapper {
     display: flex;
