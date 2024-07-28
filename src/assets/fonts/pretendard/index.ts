@@ -8,7 +8,7 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './Lemonada-ExtraLight.ttf',
+      path: './Tajawal-ExtraLight.ttf',
       weight: '200',
       style: 'normal',
     },
@@ -33,12 +33,12 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './Lemonada-ExtraBold.ttf',
+      path: './Tajawal-ExtraBold.ttf',
       weight: '800',
       style: 'normal',
     },
     {
-      path: './Lemonada-Black.ttf',
+      path: './Lemonada-SemiBold.ttf',
       weight: '900',
       style: 'normal',
     },
