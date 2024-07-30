@@ -12,14 +12,16 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
       <Hydrate state={pageProps.dehydratedState}>
         <RootLayout>
           {getLayout(<Component {...pageProps} />)}
-          {/* Adding external script */}
+          
+          {/* Adding the first external script */}
           <Script
             src="//www.topcreativeformat.com/ae62c7163401d9535a4ccd635a8d312d/invoke.js"
             strategy="beforeInteractive" // Adjust strategy as needed
           />
-          {/* Adding inline script */}
+          
+          {/* Adding the first inline script */}
           <Script
-            id="custom-inline-script"
+            id="custom-inline-script-1"
             dangerouslySetInnerHTML={{
               __html: `
                 atOptions = {
@@ -33,6 +35,30 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
             }}
             strategy="beforeInteractive" // Adjust strategy as needed
           />
+          
+          {/* Adding the second external script */}
+          <Script
+            src="//www.topcreativeformat.com/1607d3458ec86529a36b78e0ab7cda30/invoke.js"
+            strategy="beforeInteractive" // Adjust strategy as needed
+          />
+          
+          {/* Adding the second inline script */}
+          <Script
+            id="custom-inline-script-2"
+            dangerouslySetInnerHTML={{
+              __html: `
+                atOptions = {
+                  'key' : '1607d3458ec86529a36b78e0ab7cda30',
+                  'format' : 'iframe',
+                  'height' : 250,
+                  'width' : 300,
+                  'params' : {}
+                };
+              `,
+            }}
+            strategy="beforeInteractive" // Adjust strategy as needed
+          />
+          
         </RootLayout>
       </Hydrate>
     </QueryClientProvider>
