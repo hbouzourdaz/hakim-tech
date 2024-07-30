@@ -39,12 +39,12 @@ export const pretendard = localFont({
       style: 'normal',
     },
        {
-      path: './MiSansArabic-Heavy.ttf',
+      path: './MiSansArabic-Demibold.ttf',
       weight: '800',
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Black.ttf',
+      path: './MiSansArabic-Heavy.ttf',
       weight: '900',
       style: 'normal',
     },
