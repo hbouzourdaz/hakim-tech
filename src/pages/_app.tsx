@@ -14,7 +14,23 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
           {getLayout(<Component {...pageProps} />)}
           {/* Adding external script */}
           <Script
-            src="//pl23896754.highratecpm.com/75/d4/a7/75d4a7ae2a75363d87aadc058f42f3c4.js"
+            src="//www.topcreativeformat.com/ae62c7163401d9535a4ccd635a8d312d/invoke.js"
+            strategy="beforeInteractive" // Adjust strategy as needed
+          />
+          {/* Adding inline script */}
+          <Script
+            id="custom-inline-script"
+            dangerouslySetInnerHTML={{
+              __html: `
+                atOptions = {
+                  'key' : 'ae62c7163401d9535a4ccd635a8d312d',
+                  'format' : 'iframe',
+                  'height' : 60,
+                  'width' : 468,
+                  'params' : {}
+                };
+              `,
+            }}
             strategy="beforeInteractive" // Adjust strategy as needed
           />
         </RootLayout>
