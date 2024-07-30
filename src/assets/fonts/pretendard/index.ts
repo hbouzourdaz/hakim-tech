@@ -3,47 +3,32 @@ import localFont from 'next/font/local'
 export const pretendard = localFont({
   src: [
     {
-      path: './MiSansArabic-Light.ttf',
-      weight: '100',
-      style: 'normal',
-    },
-    {
-      path: './MiSansArabic-ExtraLight.ttf',
+      path: './Zain-ExtraLight.ttf',
       weight: '200',
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Light.ttf',
+      path: './Zain-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Regular.ttf',
+      path: './Zain-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Medium.ttf',
-      weight: '500',
-      style: 'normal',
-    },
-        {
-      path: './MiSansArabic-Semibold.ttf',
-      weight: '600',
-      style: 'normal',
-    },
-    {
-      path: './MiSansArabic-Bold.ttf',
+      path: './Zain-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
        {
-      path: './MiSansArabic-Thin.ttf',
+      path: './Zain-ExtraBold.ttf',
       weight: '800',
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Heavy.ttf',
+      path: './Zain-Black.ttf',
       weight: '900',
       style: 'normal',
     },
