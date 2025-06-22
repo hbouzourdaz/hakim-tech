@@ -1,3 +1,3 @@
-export * from './roboto'
+export * from './pretendard'
 export * from './roboto'
 
