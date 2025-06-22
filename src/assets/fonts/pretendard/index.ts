@@ -14,17 +14,17 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Light.ttf',
+      path: './Tajawal-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Regular.ttf',
+      path: './Tajawal-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
       {
-      path: './MiSansArabic-Medium.ttf',
+      path: './Tajawal-Medium.ttf',
       weight: '500',
       style: 'normal',
     },
@@ -34,7 +34,7 @@ export const pretendard = localFont({
       style: 'normal',
     },
     {
-      path: './MiSansArabic-Bold.ttf',
+      path: './Tajawal-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
