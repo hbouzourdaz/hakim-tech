@@ -1,3 +1,3 @@
-export * from './tajawal'
+export * from './roboto'
 export * from './roboto'
 
